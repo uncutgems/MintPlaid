@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: secretlynoobdev
+    username: 
+    password: 
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -15,8 +15,8 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   mail:
     host: smtp.gmail.com
-    username: quangdinhtesting@gmail.com
-    password: cgmm hlpr grld xjcd
+    username: 
+    password: 
     properties:
       mail:
         smtp:
@@ -28,7 +28,7 @@ spring:
 application:
   security:
     jwt:
-      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
-      expiration: 3600000
+      secret-key: 
+      expiration: 
       refresh-token:
-        expiration: 86400000
+        expiration: 
